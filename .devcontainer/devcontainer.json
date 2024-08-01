@@ -13,6 +13,19 @@
 			"dependencyTypes": "all,Config/Needs/website"
 		}
 	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"quarto.quarto",
+				"REditorSupport.r",
+				"RDebugger.r-debugger",
+				"redhat.vscode-yaml",
+				"DavidAnson.vscode-markdownlint",
+				"mhutchie.git-graph",
+				"eamodio.gitlens"
+			]
+		}
+	},
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
 	// "features": {},
