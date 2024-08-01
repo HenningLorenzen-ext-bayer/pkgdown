@@ -23,7 +23,16 @@
 				"DavidAnson.vscode-markdownlint",
 				"mhutchie.git-graph",
 				"eamodio.gitlens"
-			]
+			],
+			"settings": {
+				"gitlens.showWelcomeOnInstall": false,
+				"gitlens.showWhatsNewAfterUpgrades": false,
+				"gitlens.plusFeatures.enabled": false,
+				"gitlens.cloudPatches.enabled": false,
+				"gitlens.launchpad.indicator.enabled": false,
+				"gitlens.ai.experimental.generateCommitMessage.enabled": false,
+				"gitlens.telemetry.enabled": false				
+			}
 		}
 	},
 
@@ -35,9 +44,6 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "R -q -e 'renv::install()'",
-
-	// Configure tool-specific properties.
-	// "customizations": {},
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
